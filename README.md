@@ -44,7 +44,7 @@ clock ticks:
 
 Productivity Comparison for data = 100000:
 | Threads | p2p | scatterv | Prod(scatterv)/Prod(p2p) |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | 2 | 0.14 | 0.33 | 2.36 |
 | 3 | 0.12 | 0.26 | 2.16 |
 | 4 | 0.09 | 0.19 | 2.11 |
