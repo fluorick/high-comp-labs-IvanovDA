@@ -2,26 +2,26 @@
 **university works**
 
 **--#6--**
-готово
+готово  
 
 **--#7.1--**
-С помощью Intel Inspector в исходной программе обнаружена data race:
-https://gyazo.com/f023692b88492ed909e7103ab370e9d8
-После модификации программы проблема ушла:
+С помощью Intel Inspector в исходной программе обнаружена data race:  
+https://gyazo.com/f023692b88492ed909e7103ab370e9d8  
+После модификации программы проблема ушла:  
 https://gyazo.com/07c7ab0f5f451b205f7e2ee3429719e5
 
 **--#7.2--**
-normal_vs_openmp.cpp - программа с вычислением декартового произведения обычным и многопоточным способом с помощью openmp. 
-normal_vs_pthread.cpp - программа с вычислением декартового произведения обычным и многопооточным спобосом с помощью pthread
+normal_vs_openmp.cpp - программа с вычислением декартового произведения обычным и многопоточным способом с помощью openmp.  
+normal_vs_pthread.cpp - программа с вычислением декартового произведения обычным и многопооточным спобосом с помощью pthread.  
 
 **--#9--**
 Создано 11 процессов (10 процессов-работников и 1 главный бухгалтер - главный процесс). 10 процессов-работников случайно генерируют свой "баланс" и передают его главному процессу через MPI_Send. Главный процесс через MPI_Recv получает "баланс" от всех 10 процессов-работников и добавляет каждый в "итоговую ведомость" суммируя, а после сообщает результат. https://gyazo.com/c0a78015078c87390cb020a752c81d8b
 
 **--#10-#11---**
 **p2p.cpp** 
-Complexity = lines of code = 49
-Performance = 1000 / Execution time
-Productivity = Performance / Complexity
+Complexity = lines of code = 49  
+Performance = 1000 / Execution time  
+Productivity = Performance / Complexity  
 clock ticks:
 | Data\Threads | 2 | 3 | 4 | 5 |
 | --- | --- | --- | --- | --- |
@@ -31,9 +31,9 @@ clock ticks:
 | 100000 | 144 | 170 | 221 | 243 |
 
 **scatterv.cpp**
-Complexity = lines of code = 34
-Performance = 1000 / Execution time
-Productivity = Performance / Complexity
+Complexity = lines of code = 34  
+Performance = 1000 / Execution time  
+Productivity = Performance / Complexity  
 clock ticks:
 | Data\Threads | 2 | 3 | 4 | 5 |
 | --- | --- | --- | --- | --- |
